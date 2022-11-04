@@ -1,0 +1,21 @@
+:root {
+    --green: #133630;
+    --blue: #21222B;
+    --yellow: #BF8E5B;
+    --red: #733C30;
+    --beige: #E7E0D8;
+}
+
+#content-grid {
+    display: grid;
+    grid-template-rows: minmax(0px, auto);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 225px)) minmax(0px, 1fr);
+}
+
+body {
+    margin: 0px;
+}
+
+#nav-icon{
+    height: 75px;
+}
